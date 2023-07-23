@@ -1,0 +1,113 @@
+
+#nav_head{
+  color: rgb(7, 235, 204);
+}
+
+#nav_content{
+  margin-left: 130px;
+
+}
+
+.nav-item{
+  margin-right: 50px;
+}
+
+
+.carousel .carousel-item img {
+    height: 300px; /* Adjust the height as per your requirement */
+    object-fit: cover; 
+    filter: brightness(50%);/* This property ensures the image maintains its aspect ratio while covering the entire container */
+  }
+
+  .carousel .carousel-item h5 {
+    color: rgb(7, 235, 204);
+  }
+
+  .carousel .carousel-item p {
+    color: white;
+  }
+
+  .container1 h1{
+    margin-left: 420px;
+}
+
+.container1 p{
+    margin-left: 510px;
+}
+
+.col-lg-3 h2{
+  margin-left:35px;
+}
+#roww{
+  margin-left: 250px;
+}
+
+.row img{
+    height: 200px;
+}
+
+
+
+#new-desc{
+    height:100px;
+    overflow: hidden;
+}
+
+
+
+.col-lg-3 img {
+    transition: transform 0.3s ease;
+  }
+
+  .col-lg-3:hover img {
+    transform: scale(1.2);
+  }
+
+
+  @media (max-width: 767px) {
+    #nav_head{
+      margin-left: -30px;
+      color: green;
+      
+    }
+
+    .container1 h1{
+      margin-left: 20px;
+  }
+  
+  .container1 p{
+      margin-left: 20px;
+  }
+
+  #roww{
+    margin-left: 90px;
+  }
+
+  .col-lg-3 h2{
+    margin-left:10px;
+  }
+
+  .col-lg-3 img{
+    width: 100px;
+    height: 100px;
+
+  }
+  #logoo { 
+    margin-left: 20px;
+  }
+
+  #logoo small{ 
+    margin-left: 70px;
+  }
+
+  #formm {
+    margin-left: 70px;
+  }
+  }
+
+
+
+
+/* .card {
+    height: 100px;
+} */
